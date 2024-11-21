@@ -1,0 +1,26 @@
+{
+  "name": "bot-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "botjs",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "prod": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@google/generative-ai": "^0.3.1",
+    "@grammyjs/emoji": "^1.2.0",
+    "@grammyjs/files": "^1.0.4",
+    "@grammyjs/storage-free": "^2.4.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "grammy": "^1.21.1",
+    "nodemon": "^3.0.3",
+    "openai": "^4.28.0"
+  }
+}
